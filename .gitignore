@@ -12,3 +12,5 @@ terraform.tfvars
 
 .build-harness
 build-harness
+
+.idea/
