@@ -19,3 +19,13 @@ variable "dry_run" {
   default = true
   description = "Do dry run"
 }
+
+variable "rgroup" {
+  default = ""
+  description = "Resource Group"
+}
+
+variable "inventory" {
+  default = ""
+  description = "List of group:ip_address of hosts in play"
+}
