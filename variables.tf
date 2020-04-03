@@ -29,3 +29,18 @@ variable "inventory" {
   default = ""
   description = "List of group:ip_address of hosts in play"
 }
+
+variable "ip" {
+  default = ""
+  description = "IP address of the provisioned VM"
+}
+
+variable "user" {
+  default = ""
+  description = "User name for the datasci node"
+}
+
+variable "iothub_id" {
+  default = ""
+  description = "The IoTHub ID"
+}
